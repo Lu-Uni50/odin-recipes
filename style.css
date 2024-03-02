@@ -4,11 +4,13 @@ body {
     text-align: left;
 }
 
-h1.mainpage {
-    background-color: transparent;
-    font-size: 80px;
-    color:orangered;
-    text-align: center;
+.page {
+    margin: 10px auto;
+}
+
+img {
+    display: block;
+    margin: 0px auto;
 }
 
 h1 {
@@ -16,11 +18,28 @@ h1 {
     background-color: beige;
     color: orange;
     text-align: center;
+    margin: 12px auto;
+}
+
+h1.mainpage {
+    background-color: transparent;
+    font-size: 80px;
+    color:orangered;
+    text-align: center;
+    margin: 8px 12px;
+    padding: 8px 12px;
 }
 
 h3 {
     font-size: 40px;
     color: brown;
+}
+
+.listcontainer {
+    display: block;
+    background-color: aqua;
+    margin: 0 auto;
+    padding: 0 100px;
 }
 
 ul {
